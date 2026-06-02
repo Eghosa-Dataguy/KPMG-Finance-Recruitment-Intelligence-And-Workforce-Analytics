@@ -1,10 +1,37 @@
 # KPMG-Finance-Recruitment-Intelligence-And-Workforce-Analytics
-<img width="1126" height="758" alt="Screenshot 2026-05-29 124040" src="https://github.com/user-attachments/assets/767b5dc8-f530-4dca-9f87-cfde912bdfb6" />
-<img width="1222" height="791" alt="Screenshot 2026-05-29 124008" src="https://github.com/user-attachments/assets/2f1333ef-0ee1-458a-906b-49f37c194464" />
-<img width="1254" height="779" alt="Screenshot 2026-05-29 123935" src="https://github.com/user-attachments/assets/bb68b64f-3da7-4fd1-bd1c-85fb89063839" />
+<img width="1126" height="758" alt="KPMG 1" src="https://github.com/user-attachments/assets/1805234d-7bfa-4d5b-8516-485ab2b710b4" />
+<img width="1222" height="791" alt="KPMG 2" src="https://github.com/user-attachments/assets/287c1441-cc35-4ee6-9264-b65f08b340b6" />
+<img width="1254" height="779" alt="KPMG 3" src="https://github.com/user-attachments/assets/02e82e9e-622b-4257-a3a8-65d4b67972bb" />
 
-This project provided an excellent opportunity to integrate data visualization, workforce analytics,and business intelligence into a comprehensive executive-level reporting solution that help stakeholders monitor performance, identify trends, and make informed strategic decisions.
+This project provided an excellent opportunity to integrate data visualization, workforce analytics,and business intelligence into a comprehensive executive-level reporting solution that help stakeholders monitor performance, identify trends, and make informed strategic decisions. Where i loaded the datatsets into  Excel for necessary cleaning and better understanding of what the datasets is all about, then i moved on to loading it into PowerBI (Power Query) where i opened a new columns for Salary Mid-point, Experience Band, High Salary-Flag, Required Skills, & Skill Count and also opened a New Table as Date Table for appropraite trend analysis. Afterwards i moved on in Calculating my DAX Measures and making the visuals and proving accurate insights and decisions :
 
+Avg Time to Hire:
+   Average Time to Hire = FORMAT(AVERAGE
+         ('Finance Dataset'[Time to Hire]), "0"
+         ) & " Days"
+
+
+Total Interviews Conducted = SUM(
+          'Finance Dataset'[Interview Count]
+          )
+    
+
+Total Hired Candidates = SUM(
+       'Finance Dataset'[Hired Candidates]
+       )
+  
+
+Hiring Success Rate = DIVIDE(
+      [Total Hired],
+         [Total Applicant],
+     0)
+
+
+Avg Company Rating = AVERAGE(
+       'Finance Dataset'[Company Rating]
+       )
+        
+ 
 ## INSIGHTS :
 * The finance job market is highly active, with ***2.31K*** job postings, ***2.19K*** hiring companies, & ***468K*** applicants,nindicating strong competition for finance roles.
 * Demand is fairly balanced across full-time, contract, & internship positions, while onsite, hybrid, & remote work modes are almost equally represented.
@@ -31,3 +58,5 @@ This project provided an excellent opportunity to integrate data visualization, 
 * Data Visualization Techniques\Business Intelligence
 * KPI Design Framework
 * Data Storytelling\Decision-Making
+
+  Kindly give me a star⭐ if you find this helpful
