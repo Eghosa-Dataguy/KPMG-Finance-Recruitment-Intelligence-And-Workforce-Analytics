@@ -45,15 +45,15 @@ Salary range: $30,000 — $145,000 USD | Average mid-salary: $77,030
 
 ---
 
-## 🛠 Tools & Technologies
+## 🛠 Tools
 
-#### Tool	Purpose
-Power BI Desktop	Dashboard creation, data modelling, DAX measures
-Power Query	Data cleaning, null handling, column transformations
-DAX (Data Analysis Expressions)	KPIs, calculated measures, conditional formatting logic
-Microsoft PowerPoint	Wireframing and UI planning for all 3 dashboards
-Microsoft Excel (.xlsx)	Source data file
-GitHub	Version control and project documentation
+Power BI Desktop
+
+Microsoft PowerPoint
+
+Microsoft Excel 
+
+Git/GitHub	
 
 ---
 
